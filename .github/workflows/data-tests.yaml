@@ -6,7 +6,7 @@
 # When any of these files are modified trigger GAs (except for the ones with a '!'):
 name: scheduleRenderbook
 on:     
-  push:
+  push: 
   schedule:     
      - cron: "0 23 * * 1-7"  # 11pm every day of the week
 
