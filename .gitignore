@@ -6,3 +6,7 @@ Protocols/.DS_Store
 .DS_Store
 Icon
 Icon
+
+key/
+*.json
+data/

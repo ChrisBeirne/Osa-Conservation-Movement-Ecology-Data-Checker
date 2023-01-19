@@ -21,6 +21,8 @@ Imports:
     testthat,
     here,
     readxl,
+    purrr,
+    googledrive,
     rgdal,
     dplyr,
     readr,
