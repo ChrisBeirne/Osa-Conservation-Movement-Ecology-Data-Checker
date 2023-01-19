@@ -10,7 +10,7 @@ options(googledrive_quiet = TRUE)
 ## Authenticate into googledrive service account ----
 ## 'GOOGLE_APPLICATION_CREDENTIALS' is what we named the Github Secret that 
 ## contains the credential JSON file
-googledrive::drive_auth(path = Sys.getenv("GOOGLE_APPLICATION_CREDENTIALS"))
+googledrive::drive_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
 
 ## Find Google Drive folder 'Centre Circle Data & Info'
 data_folder <- drive_ls(path = "08 Databases + Analysis")

@@ -20,7 +20,7 @@ jobs:
     # Allow only authorized collaborators to trigger GA:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-       GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
       
     # All steps in workflow: 
     steps:
