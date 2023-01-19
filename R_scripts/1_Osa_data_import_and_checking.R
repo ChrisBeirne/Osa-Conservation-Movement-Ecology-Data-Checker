@@ -8,7 +8,7 @@ library(readxl)
 options(googledrive_quiet = TRUE)
 
 ## Authenticate into googledrive service account ----
-## 'GOOGLE_APPLICATION_CREDENTIALS' is what we named the Github Secret that 
+## 'GOOGLE_AUTHENTICATION_CREDENTIALS' is what we named the Github Secret that 
 ## contains the credential JSON file
 googledrive::drive_auth(path = Sys.getenv("GOOGLE_AUTHENTICATION_CREDENTIALS"))
 
